@@ -3,6 +3,10 @@ This fork is to have a working saved version of the original Repository. This at
 
 In the download it will contains: the language model and the speech model. In the first one it will have two: the [mozilla's one](https://github.com/mozilla/DeepSpeech) and the one of PaddlePaddle forked repository.
 
+##TODOS
+- Fix download link references (.sh, etc).
+- Fix requirements of the installation.
+- Give small advice in how to install this.
 
 
 # DeepSpeech2 on PaddlePaddle
