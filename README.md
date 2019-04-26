@@ -1,3 +1,10 @@
+# Notes of this fork
+This fork is to have a working saved version of the original Repository. This at first means that will be have corrected the issues that the orignal has. Also, includes that it will have always uploaded at the downloadings the necessary to have the working version for English. 
+
+In the download it will contains: the language model and the speech model. In the first one it will have two: the [mozilla's one](https://github.com/mozilla/DeepSpeech) and the one of PaddlePaddle forked repository.
+
+
+
 # DeepSpeech2 on PaddlePaddle
 
 *DeepSpeech2 on PaddlePaddle* is an open-source implementation of end-to-end Automatic Speech Recognition (ASR) engine, based on [Baidu's Deep Speech 2 paper](http://proceedings.mlr.press/v48/amodei16.pdf), with [PaddlePaddle](https://github.com/PaddlePaddle/Paddle) platform. Our vision is to empower both industrial application and academic research on speech recognition, via an easy-to-use, efficient and scalable implementation, including training, inference & testing module, distributed [PaddleCloud](https://github.com/PaddlePaddle/cloud) training, and demo deployment. Besides, several pre-trained models for both English and Mandarin are also released.
