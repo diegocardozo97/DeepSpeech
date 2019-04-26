@@ -22,14 +22,14 @@ add_arg('host_port',        int,    8086,    "Server's IP port.")
 add_arg('beam_size',        int,    500,    "Beam search width.")
 add_arg('num_conv_layers',  int,    2,      "# of convolution layers.")
 add_arg('num_rnn_layers',   int,    3,      "# of recurrent layers.")
-add_arg('rnn_layer_size',   int,    2048,   "# of recurrent cells per layer.")
+add_arg('rnn_layer_size',   int,    1024,   "# of recurrent cells per layer.")
 add_arg('alpha',            float,  2.5,   "Coef of LM for beam search.")
 add_arg('beta',             float,  0.3,   "Coef of WC for beam search.")
 add_arg('cutoff_prob',      float,  1.0,    "Cutoff probability for pruning.")
 add_arg('cutoff_top_n',     int,    40,     "Cutoff number for pruning.")
-add_arg('use_gru',          bool,   False,  "Use GRUs instead of simple RNNs.")
+add_arg('use_gru',          bool,   True,  "Use GRUs instead of simple RNNs.")
 add_arg('use_gpu',          bool,   True,   "Use GPU or not.")
-add_arg('share_rnn_weights',bool,   True,   "Share input-hidden weights across "
+add_arg('share_rnn_weights',bool,   False,   "Share input-hidden weights across "
                                             "bi-directional RNNs. Not for GRU.")
 add_arg('host_ip',          str,
         'localhost',
