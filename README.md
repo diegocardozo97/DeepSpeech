@@ -5,7 +5,6 @@ In the download it will contains: the language model and the speech model. In th
 
 ## TODOs
 - Fix download link references (.sh, etc).
-- Fix requirements of the installation.
 - Give small advice in how to install this.
 
 
